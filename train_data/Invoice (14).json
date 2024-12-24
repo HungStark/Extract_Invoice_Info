@@ -1,0 +1,19 @@
+{
+    "invoice_no": "00036297",
+    "invoice_code": "1C24THA",
+    "invoice_lookup": "LCLX6A25V4E",
+    "invoice_date": "Ngày (day)  03  tháng (month)  10  năm (year)  2024",
+    "seller_name": "CÔNG TY TNHH HEUNG A LINE VIỆT NAM",
+    "seller_tax_code": "0305418225",
+    "seller_address": "2A-4A Tôn Đức Thắng, Phường Bến Nghé, Quận 1, TP. HCM, Việt Nam",
+    "seller_tel": "(84-28)38 212 687",
+    "seller_fax": "(028) 3821 1050",
+    "seller_bank_account": "0071004296582 (VND)",
+    "seller_bank_name": "VIETCOMBANK HCM",
+    "company_name": "CÔNG TY CỔ PHẦN ITL FREIGHT MANAGEMENT",
+    "customer_tax_code": "0318190916",
+    "customer_address": "52 TRƯỜNG SƠN, PHƯỜNG 2, QUẬN TÂN BÌNH, THÀNH PHỐ HỒ CHÍ MINH, VIỆT NAM",
+    "sub_total": "16.956.113",
+    "vat": "227.948",
+    "total_amount": "17.184.061"
+}

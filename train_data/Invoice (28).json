@@ -1,0 +1,18 @@
+{
+    "invoice_no": "00016036",
+    "invoice_code": "1C24TNE",
+    "invoice_lookup": "OCM82XW0UKB",
+    "invoice_date": "Ngày (day) 03 tháng (month) 10 năm (year) 2024",
+    "seller_name": "CÔNG TY LIÊN DOANH TNHH NIPPON EXPRESS (VIỆT NAM)",
+    "seller_tax_code": "0302065148",
+    "seller_address": "Phòng 5.2 - 5.3, Tòa nhà e-town, số 364, đường Cộng Hòa, Phường 13, Quận Tân Bình, Thành phố Hồ Chí Minh, Việt Nam",
+    "seller_tel": "0901860293",
+    "seller_bank_account": "(VND) H15-796-50627",
+    "seller_bank_name": "i MIZUHO BANK, LTD/ HCMC BRANCH",
+    "company_name": "CONG TY TNHH GIAY KRAFT VINA",
+    "customer_tax_code": "3700777421",
+    "customer_address": "LO D-6A-CN, KCN MY PHUOC 3, PHUONG THOI HOA, THANH PHO BEN CAT, TINH BINH DUONG",
+    "sub_total": "15.938.035",
+    "vat": "1.275.043",
+    "total_amount": "17.213.078"
+}

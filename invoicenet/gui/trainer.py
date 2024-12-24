@@ -48,7 +48,7 @@ class Trainer(Frame):
             "data_dir": "",
             "prepared_data": "processed_data",
             "field": list(FIELDS.keys())[0],
-            "batch_size": 4
+            "batch_size": 2
         }
         self.textboxes = {}
         self.thread = None

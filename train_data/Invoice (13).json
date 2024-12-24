@@ -1,0 +1,17 @@
+{
+    "invoice_no": "00027257",
+    "invoice_code": "1C24TCB",
+    "invoice_lookup": "WCH0I1DT883",
+    "invoice_date": "26/09/2024",
+    "seller_name": "CÔNG TY TNHH HMM SHIPPING VIỆT NAM",
+    "seller_tax_code": "0305064424",
+    "seller_address": "Số 9-11 Tôn Đức Thắng, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",
+    "seller_tel": "02838233798",
+    "seller_fax": "84-28-38233791",
+    "company_name": "CONG TY CO PHAN ITL FREIGHT MANAGEMENT",
+    "customer_tax_code": "0318190916",
+    "customer_address": "52 TRUONG SON, PHUONG 2, QUAN TAN BINH, THANH PHO HO CHI MINH, VIET NAM",
+    "sub_total": "5.719.000",
+    "vat": "301.000",
+    "total_amount": "6.020.000"
+}

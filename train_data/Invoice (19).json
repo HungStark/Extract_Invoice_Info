@@ -1,0 +1,19 @@
+{
+    "invoice_no": "00005129",
+    "invoice_code": "1C24TSH",
+    "invoice_lookup": "NCKSQFYI5BC",
+    "invoice_date": "01/10/2024",
+    "seller_name": "CÔNG TY CỔ PHẦN HÀNG HẢI SEAHORSE",
+    "seller_tax_code": "0310643138",
+    "seller_address": "Số 05 Đồng Nai, Phường 2,Quận Tân Bình, TP Hồ Chí Minh, Việt Nam",
+    "seller_tel": "02838488000",
+    "seller_fax": "(028) 38.489.000",
+    "seller_bank_account": "VND 98400229 / USD 98400389",
+    "seller_bank_name": "NH Thương Mại Á Châu",
+    "company_name": "CÔNG TY CỔ PHẦN ITL FREIGHT MANAGEMENT",
+    "customer_tax_code": "0318190916",
+    "customer_address": "52 TRƯỜNG SƠN, PHƯỜNG 2, QUẬN TÂN BÌNH, THÀNH PHỐ HỒ CHÍ MINH, VIỆT NAM",
+    "sub_total": "8.804.000",
+    "vat": "704.320",
+    "total_amount": "9.508.320"
+}

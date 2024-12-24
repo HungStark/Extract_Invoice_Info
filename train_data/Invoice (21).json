@@ -1,0 +1,19 @@
+{
+    "invoice_no": "00001805",
+    "invoice_code": "1C24TSV",
+    "invoice_lookup": "WBVL8BZ22W3",
+    "invoice_date": "Ngày (day) 27 tháng (month) 08 năm (year) 2024",
+    "seller_name": "CÔNG TY TNHH SANKYU (VIỆT NAM)",
+    "seller_tax_code": "0303590848",
+    "seller_address": "11Bis Nguyễn Gia Thiều, Phường Võ Thị Sáu, Quận 3, TP.HCM",
+    "seller_tel": "02839308352",
+    "seller_fax": "02839308354",
+    "seller_bank_account": "(VND) 144339 / (USD) H15-796-5054",
+    "seller_bank_name": "MUFG Bank, LTD, HCMC Branch / 9 Mizuho Bank Ltd., HCMC Branch",
+    "company_name": "CÔNG TY TNHH GIẤY KRAFT VINA",
+    "customer_tax_code": "3700777421",
+    "customer_address": "Lô D-6A-CN, Khu Công Nghiệp Mỹ Phước 3, Phường Thới Hòa, Thành phố Bến Cát, tỉnh Bình Dương",
+    "sub_total": "800.000",
+    "vat": "64.000",
+    "total_amount": "864.000"
+}

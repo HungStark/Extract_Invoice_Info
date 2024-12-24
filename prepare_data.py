@@ -45,7 +45,7 @@ def process_file(filename, out_dir, phase, ocr_engine):
             if "date" in ngram["parses"]:
                 ngram["parses"]["date"] = util.normalize(ngram["parses"]["date"], key="date")
 
-        with open(filename[:-3] + 'json', 'r') as fp:
+        with open(filename[:-3] + 'json', 'r', encoding='utf-8') as fp:
             labels = simplejson.loads(fp.read())
 
         fields = {}
@@ -69,7 +69,7 @@ def process_file(filename, out_dir, phase, ocr_engine):
                 os.path.join(out_dir, phase, os.path.basename(filename)[:-3] + 'png'))
         }
 
-        with open(os.path.join(out_dir, phase, os.path.basename(filename)[:-3] + 'json'), 'w') as fp:
+        with open(os.path.join(out_dir, phase, os.path.basename(filename)[:-3] + 'json'), 'w', encoding='utf-8') as fp:
             fp.write(simplejson.dumps(data, indent=2))
         return True
 

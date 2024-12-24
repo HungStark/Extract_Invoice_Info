@@ -1,0 +1,19 @@
+{
+    "invoice_no": "00257149",
+    "invoice_code": "1C24TAA",
+    "invoice_lookup": "KCOGV1S5ZDF",
+    "invoice_date": "Ngày (day) 7 tháng (month) 10 năm (year) 2024",
+    "seller_name": "CÔNG TY TNHH ĐẠI LÝ VẬN TẢI EVERGREEN (VIỆT NAM)",
+    "seller_tax_code": "0302986886",
+    "seller_address": "Số 561A, đường Điện Biên Phủ, Phường 25, Quận Bình Thạnh, TP Hồ Chí Minh",
+    "seller_tel": "02835121888",
+    "seller_fax": "(028) 3512 3657",
+    "seller_bank_account": "0301908016",
+    "seller_bank_name": " Ngân hàng Citibank HCM",
+    "company_name": "CÔNG TY TNHH QUỐC TẾ UNILEVER VIỆT NAM",
+    "customer_tax_code": "0300762150",
+    "customer_address": "LÔ A2-3, KHU CÔNG NGHIỆP TÂY BẮC CỦ CHI, XÃ TÂN AN HỘI, HUYỆN CỦ CHI, TP HỒ CHÍ MINH",
+    "sub_total": "5.098.175",
+    "vat": "268.325",
+    "total_amount": "5.366.500"
+}

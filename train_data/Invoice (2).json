@@ -1,0 +1,20 @@
+{
+    "invoice_no": "278940",
+    "invoice_code": "1K24TDH",
+    "invoice_lookup": "9A18E0CFB45DD189",
+    "invoice_date": "Ngày (day) 8 tháng (month) 10 năm (year) 2024",
+    "seller_name": "CÔNG TY CỔ PHẦN DỊCH VỤ HÀNG HÓA TÂN SƠN NHẤT",
+    "seller_tax_code": "0301215249",
+    "seller_address": "46 - 48 Hậu Giang, Phường 4, Quận Tân Bình, TP. HCM, Việt Nam",
+    "seller_tel": "(84) (28) 38486489",
+    "seller_fax": "(84) (28) 38427944",
+    "seller_bank_account": "11610600289017 (VND) / 11610600289025 (USD)",
+    "seller_bank_name": "Techcombank - Chi nhánh Gia Định (Gia Định Branch)",
+    "customer_name": "NGUYỄN TRUNG NAM",
+    "company_name": "CÔNG TY TNHH GREEN PLANET DISTRIBUTION CENTRE",
+    "customer_tax_code": "0317077996",
+    "customer_address": " LÔ A3.1, KHU A3, ĐƯỜNG D2&N2, KHU CÔNG NGHIỆP TÂN PHÚ TRUNG, XÃ TÂN PHÚ TRUNG, HUYỆN CỦ CHI, THÀNH PHỐ HỒ CHÍ MINH, VIỆT NAM",
+    "sub_total": "5.177.755",
+    "vat": "414.220",
+    "total_amount": "5.591.975"
+}

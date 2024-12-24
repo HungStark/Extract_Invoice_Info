@@ -1,0 +1,19 @@
+{
+    "invoice_no": "00010232",
+    "invoice_code": "1C24TMP",
+    "invoice_lookup": " PC8QQ1D4D9A",
+    "invoice_date": "Ngày (day) 13 tháng (month) 09 năm (year) 2024",
+    "seller_name": "CÔNG TY TNHH MINH PHONG HỢP NHẤT",
+    "seller_tax_code": "0318190916",
+    "seller_address": " Phòng 6.32, Tầng 6, Cao Ốc RiverGate Residence, 151-155 Bến Vân Đồn, Phường 06, Quận 4, TP. HCM",
+    "seller_tel": " 028-7109 5818",
+    "seller_fax": " 028-7108 5818",
+    "seller_bank_account": "0071005731030",
+    "seller_bank_name": "NH VIETCOMBANK - CN HCM",
+    "company_name": "CÔNG TY CỔ PHẦN ITL FREIGHT MANAGEMENT",
+    "customer_tax_code": "0318190916",
+    "customer_address": "52 TRƯỜNG SƠN, PHƯỜNG 2, QUẬN TÂN BÌNH, THÀNH PHỐ HỒ CHÍ MINH, VIỆT NAM",
+    "sub_total": "5.987.898",
+    "vat": "479.032",
+    "total_amount": "6.466.930"
+}

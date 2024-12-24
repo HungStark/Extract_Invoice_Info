@@ -1,0 +1,19 @@
+{
+    "invoice_no": "216821",
+    "invoice_code": "1C24TSP",
+    "invoice_lookup": "ITC24100469882",
+    "invoice_date": "Ngày (Date) 04 tháng (month) 10 năm (year) 2024",
+    "seller_name": "CÔNG TY CỔ PHẦN VẬN TẢI VÀ THƯƠNG MẠI QUỐC TẾ",
+    "seller_tax_code": "0302345459",
+    "seller_address": "140A Nam Kỳ Khởi Nghĩa,  Phường Bến Nghé, Quận 1, Tp. Hồ Chí Minh, Việt Nam",
+    "seller_tel": "028 3827 3083",
+    "seller_fax": "028 3827 4754",
+    "seller_bank_account": "VND:1320213580 / USD:132000368",
+    "seller_bank_name": "  Ngân hàng BIDV, Chi nhánh Nam Sài Gòn",
+    "company_name": "CÔNG TY TNHH HORIZON CONSTRUCTION DEVELOPMENT OVERSEAS (VIỆT NAM)",
+    "customer_tax_code": "0317736744",
+    "customer_address": "Tầng 10, tòa EBM, 685 đường Điện Biên Phủ, P. 25, Q. Bình Thạnh, Tp. Hồ Chí Minh, Việt Nam",
+    "sub_total": "5.580.000",
+    "vat": "446.400",
+    "total_amount": "6.026.400"
+}

@@ -92,7 +92,7 @@ class TextParser:
 
 def extract_words(img, height, width, ocr_engine='pytesseract'):
     if ocr_engine == 'pytesseract':
-        data = pytesseract.image_to_data(img, output_type=Output.DICT)
+        data = pytesseract.image_to_data(img, output_type=Output.DICT, lang='eng+vie')
         n_boxes = len(data['text'])
         words = [
             {

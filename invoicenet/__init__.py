@@ -27,11 +27,26 @@ FIELD_TYPES = {
 
 FIELDS = dict()
 
-FIELDS["invoice_number"] = FIELD_TYPES["general"]
-FIELDS["vendor_name"] = FIELD_TYPES["general"]
+FIELDS["invoice_no"] = FIELD_TYPES["general"]
+FIELDS["invoice_code"] = FIELD_TYPES["general"]
+FIELDS["invoice_lookup"] = FIELD_TYPES["general"]
+FIELDS["invoice_date"] = FIELD_TYPES["general"]
 
-FIELDS["invoice_date"] = FIELD_TYPES["date"]
+FIELDS["seller_name"] = FIELD_TYPES["general"]
+FIELDS["seller_tax_code"] = FIELD_TYPES["general"]
+FIELDS["seller_address"] = FIELD_TYPES["general"]
+FIELDS["seller_tel"] = FIELD_TYPES["optional"]
+FIELDS["seller_fax"] = FIELD_TYPES["optional"]
+FIELDS["seller_bank_name"] = FIELD_TYPES["optional"]
+FIELDS["seller_bank_account"] = FIELD_TYPES["optional"]
 
-FIELDS["net_amount"] = FIELD_TYPES["amount"]
-FIELDS["tax_amount"] = FIELD_TYPES["amount"]
-FIELDS["total_amount"] = FIELD_TYPES["amount"]
+FIELDS["customer_name"] = FIELD_TYPES["optional"]
+FIELDS["company_name"] = FIELD_TYPES["general"]
+FIELDS["customer_tax_code"] = FIELD_TYPES["general"]
+FIELDS["customer_address"] = FIELD_TYPES["general"]
+FIELDS["customer_tel"] = FIELD_TYPES["optional"]
+FIELDS["customer_fax"] = FIELD_TYPES["optional"]
+
+FIELDS["sub_total"] = FIELD_TYPES["general"]
+FIELDS["vat"] = FIELD_TYPES["general"]
+FIELDS["total_amount"] = FIELD_TYPES["general"]

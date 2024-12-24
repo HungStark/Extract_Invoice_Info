@@ -37,6 +37,7 @@ from .custom_widgets import MenuBox, HoverButton, Logger, StoppableThread
 from .help_box import HelpBox
 from .viewer import PDFViewer
 
+import re
 
 class Extractor(Frame):
 
@@ -272,7 +273,7 @@ class Extractor(Frame):
         temp = None
         if path.split('.')[-1].lower() in ['jpg', 'png']:
             image = Image.open(path)
-            pdf = pytesseract.image_to_pdf_or_hocr(image, extension='pdf')
+            pdf = pytesseract.image_to_pdf_or_hocr(image, extension='pdf', lang='eng+vie')
             temp = tempfile.NamedTemporaryFile(suffix='.pdf')
             temp.write(pdf)
             path = temp.name
@@ -411,7 +412,7 @@ class Extractor(Frame):
         pdf_pages = list()
         for page in self.pdf.pages:
             image = page.to_image(resolution=100)
-            pdf = pytesseract.image_to_pdf_or_hocr(image.original, extension='pdf')
+            pdf = pytesseract.image_to_pdf_or_hocr(image.original, extension='pdf', lang='eng+vie')
             pdf_pages.append(pdf)
 
         pdf_writer = PyPDF2.PdfFileWriter()
@@ -432,7 +433,7 @@ class Extractor(Frame):
         try:
             if filename.split('.')[-1].lower() in ['jpg', 'png']:
                 image = Image.open(path)
-                pdf = io.BytesIO(pytesseract.image_to_pdf_or_hocr(image, extension='pdf'))
+                pdf = io.BytesIO(pytesseract.image_to_pdf_or_hocr(image, extension='pdf', lang='eng+vie'))
                 self.pdf = pdfplumber.load(pdf)
             else:
                 self.pdf = pdfplumber.open(path)

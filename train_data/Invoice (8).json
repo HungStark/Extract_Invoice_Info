@@ -1,0 +1,19 @@
+{
+    "invoice_no": "7198",
+    "invoice_code": "1C24TAI",
+    "invoice_lookup": "N1YRA7ILCS6SWKB",
+    "invoice_date": "Ngày 28 tháng 08 năm 2024",
+    "seller_name": "TRUNG TÂM KỸ THUẬT TIÊU CHUẨN ĐO LƯỜNG CHẤT LƯỢNG 3",
+    "seller_tax_code": "0301281040",
+    "seller_address": "49 Pasteur, phường Nguyễn Thái Bình, Quận 1, TP Hồ Chí Minh",
+    "seller_tel": "02838294274",
+    "seller_fax": "02838293012",
+    "seller_bank_account": "118000004544",
+    "seller_bank_name": " Ngân Hàng TMCP Công thương Việt Nam - CN. Thành phố Hồ Chí Minh",
+    "company_name": "Công Ty TNHH Electrolux Việt Nam",
+    "customer_tax_code": "0100831110",
+    "customer_address": "Tầng 15, toà nhà Geleximco, số 36 Hoàng Cầu, Phường Ô Chợ Dừa, Quận Đống Đa, Thành phố Hà Nội, Việt Nam",
+    "sub_total": "2.000.000",
+    "vat": "100.000",
+    "total_amount": "2.100.000"
+}

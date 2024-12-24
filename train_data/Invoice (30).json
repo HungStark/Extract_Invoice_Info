@@ -1,0 +1,19 @@
+{
+    "invoice_no": "00038157",
+    "invoice_code": "1C24THA",
+    "invoice_lookup": "",
+    "invoice_date": "Ngày (date) 03 tháng (month) 10 năm (year) 2024",
+    "seller_name": "CÔNG TY TNHH DỊCH VỤ ZIM INTEGRATED SHIPPING (VIỆT NAM)",
+    "seller_tax_code": "0305024573",
+    "seller_address": "Tầng 3, An Phú Plaza, số 117-119, Đường Lý Chính Thắng, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh, Việt Nam",
+    "seller_tel": "1800400248",
+    "seller_fax": "",
+    "seller_bank_account": "VND 0301750072 - USD 0301750064",
+    "seller_bank_name": "NH CITIBANK VIỆT NAM - CN TP.HCM",
+    "company_name": "CÔNG TY CỔ PHẦN ITLFREIGHTMANAGEMENT",
+    "customer_tax_code": "0318190916",
+    "customer_address": "52 Trường Sơn, Phường 2, Quận Tân Bình, Thành phố Hồ Chí Minh, Việt Nam",
+    "sub_total": "1.000.000",
+    "vat": "80.000",
+    "total_amount": "1.080.000"
+}

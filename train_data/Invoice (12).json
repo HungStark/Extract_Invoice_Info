@@ -1,0 +1,19 @@
+{
+    "invoice_no": "00004753",
+    "invoice_code": "1C24TAS",
+    "invoice_lookup": "KCENJ52PDFF",
+    "invoice_date": "Ngày (day)  23  tháng (month)  09  năm (year)  2024",
+    "seller_name": "CÔNG TY TNHH AWS VIỆT NAM",
+    "seller_tax_code": "0315127722",
+    "seller_address": "Tầng 2, Tòa nhà VNDECO, Số 4 Phan Kế Bính, Phường Đa Kao, Quận 1, TP Hồ Chí Minh",
+    "seller_tel": "(028) 3829 8989",
+    "seller_fax": "",
+    "seller_bank_account": "1903792954222 / 03710004830",
+    "seller_bank_name": " Techcombank Chi nhánh Gia Định / Vietcombank Chi nhánh Tân Định",
+    "company_name": "CÔNG TY CỔ PHẦN ITL FREIGHT MANAGEMENT",
+    "customer_tax_code": "0318190916",
+    "customer_address": "52 Trường Sơn, Phường 2, Quận Tân Bình, Thành phố Hồ Chí Minh, Việt Nam",
+    "sub_total": "2.913.729",
+    "vat": "233.098",
+    "total_amount": "3.146.827"
+}

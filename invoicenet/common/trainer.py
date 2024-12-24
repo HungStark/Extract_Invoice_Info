@@ -29,7 +29,7 @@ from invoicenet.common.model import Model
 def train(model: Model,
           train_data: tf.data.Dataset,
           val_data: tf.data.Dataset,
-          total_steps=50000,
+          total_steps=400,
           early_stop_steps=0):
 
     print_interval = 20

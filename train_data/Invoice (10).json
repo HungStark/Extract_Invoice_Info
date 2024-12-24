@@ -1,0 +1,19 @@
+{
+    "invoice_no": "00247068",
+    "invoice_code": "1C24TAA",
+    "invoice_lookup": "NCGHZK3D95C",
+    "invoice_date": "Ngày (day) 25 tháng (month) 09 năm (year) 2024",
+    "seller_name": "CÔNG TY TNHH ĐẠI LÝ VẬN TẢI EVERGREEN (VIỆT NAM)",
+    "seller_tax_code": "0302986886",
+    "seller_address": "Số 561A, đường Điện Biên Phủ, Phường 25, Quận Bình Thạnh, TP Hồ Chí Minh",
+    "seller_tel": "02835121888",
+    "seller_fax": "(028) 3512 3657",
+    "seller_bank_account": "0301908016",
+    "seller_bank_name": " Ngân hàng Citibank HCM",
+    "company_name": "CÔNG TY CỔ PHẦN ITL FREIGHT MANAGEMENT",
+    "customer_tax_code": "0318190916",
+    "customer_address": "52 TRƯỜNG SƠN, PHƯỜNG 2, QUẬN TÂN BÌNH, TP HỒ CHÍ MINH, VIỆT NAM",
+    "sub_total": "5.624.000",
+    "vat": "296.000",
+    "total_amount": "5.920.000"
+}

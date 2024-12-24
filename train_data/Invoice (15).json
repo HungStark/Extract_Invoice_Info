@@ -1,0 +1,16 @@
+{
+    "invoice_no": "00109114",
+    "invoice_code": "C24THC",
+    "invoice_lookup": "ZCOLSG5LEU0",
+    "invoice_date": "Ngày 07 tháng 10 năm 2024",
+    "seller_name": "CÔNG TY TNHH HAPAG-LLOYD (VIỆT NAM)",
+    "seller_tax_code": "0303851867",
+    "seller_address": "72, Đường Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+    "seller_tel": "02839155300",
+    "company_name": "CONG TY TNHH QUOC TE UNILEVER VIET NAM",
+    "customer_tax_code": "0300762150",
+    "customer_address": "LO A2-3 KCN TAY BAC CU CHI, XA TAN AN HOI, HUYEN CU CHI, TP. HO CHI MINH",
+    "sub_total": "14.400.000",
+    "vat": "757.896",
+    "total_amount": "15.157.896"
+}

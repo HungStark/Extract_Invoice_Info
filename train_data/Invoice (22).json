@@ -1,0 +1,19 @@
+{
+    "invoice_no": "00007600",
+    "invoice_code": "1C24TYY",
+    "invoice_lookup": "QCEWWW9MB39",
+    "invoice_date": "Ngày (day) 23 tháng (month) 09 năm (year) 2024",
+    "seller_name": "CÔNG TY CỔ PHẦN INTERLINK",
+    "seller_tax_code": "0302552166",
+    "seller_address": "47 Điện Biên Phủ, Phường Đa Kao, Quận 1, TP. Hồ Chí Minh, Việt Nam",
+    "seller_tel": "02838274634",
+    "seller_fax": "(028) 3827 4633",
+    "seller_bank_account": "1171336688",
+    "seller_bank_name": "VIETCOMBANK - CN TÂN SÀI GÒN",
+    "company_name": "CÔNG TY CỔ PHẦN ITL FREIGHT MANAGEMENT",
+    "customer_tax_code": "0318190916",
+    "customer_address": "52 TRƯỜNG SƠN, PHƯỜNG 2, QUẬN TÂN BÌNH, THÀNH PHỐ HỒ CHÍ MINH, VIỆT NAM",
+    "sub_total": "3.500.000",
+    "vat": "280.000",
+    "total_amount": "3.780.000"
+}

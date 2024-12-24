@@ -1,0 +1,18 @@
+{
+    "invoice_no": "22125",
+    "invoice_code": "1C24TSL",
+    "invoice_lookup": "P YDB 811 2I9 51S 2F6",
+    "invoice_date": "Ngày 28 tháng 08 năm 2024",
+    "seller_name": "CÔNG TY TNHH MỘT THÀNH VIÊN SOTRANS LOGISTICS",
+    "seller_tax_code": "0315428529",
+    "seller_address": "1B Hoàng Diệu, Phường 13, Quận 4, Thành phố Hồ Chí Minh, Việt Nam",
+    "seller_tel": "028 6268 5858",
+    "seller_bank_account": "VND: 007 100 128 1934 / USD: 007 137 128 193",
+    "seller_bank_name": "VIETCOMBANK - HO CHI MINH Branch",
+    "company_name": "CÔNG TY CỔ PHẦN ITL FREIGHT MANAGEMENT",
+    "customer_tax_code": "0318190916",
+    "customer_address": "52 Trường Sơn, Phường 2, Quận Tân Bình, Thành phố Hồ Chí Minh, Việt Nam",
+    "sub_total": "500.000",
+    "vat": "40.000",
+    "total_amount": "540.000"
+}
