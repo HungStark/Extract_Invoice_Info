@@ -106,7 +106,7 @@ def main():
 
     os.makedirs(os.path.join("data", "date"), exist_ok=True)
 
-    with open(os.path.join("data", "date", "train.tsv"), "w") as fp:
+    with open(os.path.join("data", "date", "train.tsv"), "w", encoding='utf-8') as fp:
         for sample in tqdm(zip(train_date_formats,
                                train_year_formats, train_month_formats, train_day_formats,
                                train_years, train_months, train_days), total=args.train_size):
@@ -124,7 +124,7 @@ def main():
             fp.write(date.strftime('%m-%d-%Y'))
             fp.write('\n')
 
-    with open(os.path.join("data", "date", "valid.tsv"), "w") as fp:
+    with open(os.path.join("data", "date", "valid.tsv"), "w", encoding='utf-8') as fp:
         for sample in tqdm(zip(test_date_formats,
                                test_year_formats, test_month_formats, test_day_formats,
                                test_years, test_months, test_days), total=args.test_size):

@@ -288,7 +288,7 @@ class Extractor(Frame):
             temp.close()
 
         self.viewer.label(labels=predictions)
-        self.logger.log(simplejson.dumps(predictions, indent=2, sort_keys=True))
+        self.logger.log(simplejson.dumps(predictions, indent=2, sort_keys=True, ensure_ascii=False))
         self.start_button.configure(state='normal')
         self.running = False
 
@@ -340,7 +340,7 @@ class Extractor(Frame):
         self.viewer.label(labels=labels)
         self.logger.clear()
         self.logger.log("Extracting information from '{}'...\n".format(self.paths[self.pathidx]))
-        self.logger.log(simplejson.dumps(labels, indent=2, sort_keys=True))
+        self.logger.log(simplejson.dumps(labels, indent=2, sort_keys=True, ensure_ascii=False))
         self.logger.log("\nLoaded labels from '{}'".format(label_file.name))
 
     def _save_info(self):
@@ -375,8 +375,8 @@ class Extractor(Frame):
             labels[label] = new_labels[label]
 
         try:
-            with open(path, 'w') as out:
-                out.write(simplejson.dumps(labels, indent=2, sort_keys=True))
+            with open(path, 'w', encoding='utf-8') as out:
+                out.write(simplejson.dumps(labels, indent=2, sort_keys=True, ensure_ascii=False))
         except simplejson.errors.JSONDecodeError:
             messagebox.showerror("Error", "Error occurred while writing JSON file!")
             return

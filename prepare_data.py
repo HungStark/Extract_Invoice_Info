@@ -70,7 +70,7 @@ def process_file(filename, out_dir, phase, ocr_engine):
         }
 
         with open(os.path.join(out_dir, phase, os.path.basename(filename)[:-3] + 'json'), 'w', encoding='utf-8') as fp:
-            fp.write(simplejson.dumps(data, indent=2))
+            fp.write(simplejson.dumps(data, indent=2, ensure_ascii=False))
         return True
 
     except Exception as exp:

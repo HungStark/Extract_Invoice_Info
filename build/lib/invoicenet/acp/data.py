@@ -42,7 +42,10 @@ random.seed(0)
 class InvoiceData(Data):
 
     im_size = 128, 128
-    chars = ['<PAD>', '<EOS>', '<UNK>'] + list(string.printable)
+    vie_lowercase = 'áàãạảâầấẫẩậăắằẳặẵéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựđỳýỷỹỵ'
+    vie_uppercase = 'ÁÀÃẠẢÂẦẤẪẨẬĂẮẰẲẶẴÉÈẺẼẸÊẾỀỂỄỆÍÌỈĨỊÓÒỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÚÙỦŨỤƯỨỪỬỮỰĐỲÝỶỸỴ'
+    vie_letters = vie_lowercase + vie_uppercase
+    chars = ['<PAD>', '<EOS>', '<UNK>'] + list(string.printable + vie_letters)
     output_dict = UnkDict(chars)
     n_output = len(output_dict)
     pad_idx = 0
@@ -138,7 +141,9 @@ class InvoiceData(Data):
 
                 pattern = text
                 pattern = re.sub(r"[A-Z]", "X", pattern)
+                pattern = re.sub(r"[ÁÀÃẠẢÂẦẤẪẨẬĂẮẰẲẶẴÉÈẺẼẸÊẾỀỂỄỆÍÌỈĨỊÓÒỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÚÙỦŨỤƯỨỪỬỮỰĐỲÝỶỸỴ]", "V", pattern)
                 pattern = re.sub(r"[a-z]", "x", pattern)
+                pattern = re.sub(r"[áàãạảâầấẫẩậăắằẳặẵéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựđỳýỷỹỵ]", "v", pattern)
                 pattern = re.sub(r"[0-9]", "0", pattern)
                 pattern = re.sub(r"[^Xx0]", "-", pattern)
 

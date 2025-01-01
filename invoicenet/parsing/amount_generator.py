@@ -45,7 +45,7 @@ def main():
 
     for phase, numbers in [("train", train_numbers), ("valid", test_numbers)]:
 
-        with open(os.path.join("data", "amount", "{}.tsv".format(phase)), "w") as fp:
+        with open(os.path.join("data", "amount", "{}.tsv".format(phase)), "w", encoding='utf-8') as fp:
 
             for number in tqdm(numbers, total=len(numbers)):
 

@@ -167,7 +167,7 @@ def build_and_run(compiler, source, filename, libraries=(),
 
     try:
         fname = os.path.join(temp_dir, filename)
-        with open(fname, 'w') as f:
+        with open(fname, 'w', encoding='utf-8') as f:
             f.write(source)
 
         objects = compiler.compile([fname], output_dir=temp_dir,

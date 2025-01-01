@@ -65,7 +65,7 @@ class ParseData(Data):
         return strs
 
     def sample_generator(self):
-        with open(self.samples_fname) as samples_file:
+        with open(self.samples_fname, encoding='utf-8') as samples_file:
             samples = samples_file.readlines()
 
         while True:

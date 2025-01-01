@@ -77,17 +77,17 @@ def main():
         filename = os.path.basename(filename)[:-3] + 'json'
         labels = {}
         if os.path.exists(os.path.join(args.pred_dir, filename)):
-            with open(os.path.join(args.pred_dir, filename), 'r') as fp:
+            with open(os.path.join(args.pred_dir, filename), 'r', encoding='utf-8') as fp:
                 try:
                     labels = json.load(fp)
                 except:
                     labels = {}
-        with open(os.path.join(args.pred_dir, filename), 'w') as fp:
+        with open(os.path.join(args.pred_dir, filename), 'w', encoding='utf-8') as fp:
             print("\nFilename: {}".format(filename))
             for field in predictions.keys():
                 labels[field] = predictions[field][idx]
                 print("  {}: {}".format(field, labels[field]))
-            fp.write(json.dumps(labels, indent=2))
+            fp.write(json.dumps(labels, indent=2, ensure_ascii=False))
             print('\n')
 
     print("Predictions stored in '{}'".format(args.pred_dir))

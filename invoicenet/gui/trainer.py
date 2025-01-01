@@ -397,7 +397,7 @@ class Trainer(Frame):
                     if "date" in ngram["parses"]:
                         ngram["parses"]["date"] = util.normalize(ngram["parses"]["date"], key="date")
 
-                with open(filename[:-3] + 'json', 'r') as fp:
+                with open(filename[:-3] + 'json', 'r', encoding='utf-8') as fp:
                     labels = simplejson.loads(fp.read())
 
                 fields = {}
@@ -422,8 +422,8 @@ class Trainer(Frame):
                 }
 
                 with open(os.path.join(self.args["prepared_data"], phase, os.path.basename(filename)[:-3] + 'json'),
-                          'w') as fp:
-                    fp.write(simplejson.dumps(data, indent=2))
+                          'w', encoding='utf-8') as fp:
+                    fp.write(simplejson.dumps(data, indent=2, ensure_ascii=False))
 
                 # except Exception as exp:
                 #     self.logger.log("Skipping {} : {}".format(filename, exp))
